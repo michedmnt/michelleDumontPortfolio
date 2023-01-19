@@ -1,0 +1,16 @@
+.fa-brands {
+  color: $iconColor;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-between;
+
+  & li {
+    text-align: center;
+  }
+}
+
+.skills ul li i {
+  padding-bottom: 15px;
+}

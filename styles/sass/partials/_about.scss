@@ -1,0 +1,15 @@
+.about {
+  display: flex;
+  align-items: center;
+
+  .bio {
+    padding-left: 50px;
+  }
+}
+
+.headshot img {
+  width: 350px;
+  border: 2px solid $accentColor;
+  border-radius: 50%;
+  align-content: center;
+}

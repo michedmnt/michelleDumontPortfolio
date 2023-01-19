@@ -4,19 +4,116 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MichelleCodes</title>
+  <title>Michelle Codes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Recursive&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <script src="https://kit.fontawesome.com/c97c12bb15.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
+  <header id="home">
     <nav>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <div class="wrapper">
+        <h2 class="logo">Michelle<br>Codes</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-
-    <h1>Michelle Dumont</h1>
+    <div class="wrapper">
+      <div class="title">
+        <h1>Michelle Dumont</h1>
+        <h2>Toronto based Front-end Web Developer</h2>
+      </div>
+    </div>
   </header>
+  <main>
+    <section id="about">
+        <div class="wrapper">
+          <h2>About Me</h2>
+          <div class="about">
+            <div class="headshot">
+              <img src="./assets/headshot-image.png" alt="This is Michelle Dumont, Hi!">
+            </div>
+            <div class="bio">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem hic quia id cum earum atque, dolorum, non iste libero quos illum incidunt consequatur velit voluptates dignissimos sequi similique excepturi iure dolor animi, culpa magnam totam voluptatum. Assumenda cum ea distinctio pariatur dolor labore voluptatem, debitis delectus illo perferendis eligendi, ullam alias saepe rem fugiat? Iste modi perferendis quas sit animi, minima et unde doloribus ipsa laboriosam deserunt. Harum molestiae assumenda, asperiores vero ab accusantium voluptatibus aliquam nemo doloribus eos!</p>
+            </div>
+          </div>
+          <div class="socials">
+            <!-- font-awsome logos -->
+
+          </div>  
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="wrapper">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-html5 fa-8x"></i>
+              </div>
+              <p>HTML5</p>
+            </li>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-css3 fa-8x"></i>
+              </div>
+              <p>CSS3</p>
+            </li>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-js fa-8x"></i>
+              </div>
+              <p>JavaScript</p>
+            </li>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-react fa-8x"></i>
+              </div>
+              <p>React</p>
+            </li>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-sass fa-8x"></i>
+              </div>
+              <p>Sass</p>
+            </li>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-git-alt fa-8x"></i>
+              </div>
+              <p>Git</p>
+            </li>
+            <li>
+              <div class="iconBox">
+                <i class="fa-brands fa-github fa-8x"></i>
+              </div>
+              <p>GitHub</p>
+            </li>
+
+          </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrapper">
+        <img src="./assets/app-images.png" alt="A image of a tablet, open laptop, and phone to represent responsive design"/>
+        <h2>Projects</h2>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <div class="wrapper">
+        <h2>Contact</h2>
+      </div>
+    </section>
+  </main>
 
   
 </body>

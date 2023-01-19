@@ -1,0 +1,62 @@
+header {
+  background-image: url(../assets/hero-image.jpg);
+  background-size: cover;
+  background-position: center 90%;
+  height: 90vh;
+  color: $solidWhite;
+  padding-top: 20px;
+}
+
+header nav .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+}
+
+header nav ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+header nav li {
+  margin-top: 20px;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+header a {
+  display: inline-block;
+  color: $solidWhite;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover,
+a:focus {
+  cursor: pointer;
+  // color: $accentColor;
+  transform: scale(1.25);
+  text-decoration: underline;
+  text-decoration-color: #000;
+  text-decoration-thickness: 1.5px;
+}
+
+.title {
+  padding-top: 100px;
+}
+.title h1,
+.title h2 {
+  text-align: center;
+  padding: 0;
+}
