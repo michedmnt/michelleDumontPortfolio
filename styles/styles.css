@@ -396,7 +396,7 @@ a:focus {
 }
 
 .title {
-  padding-top: 120px;
+  padding-top: 150px;
 }
 
 .title h1,
@@ -457,10 +457,74 @@ a:focus {
   text-align: center;
 }
 .projects .probox img {
-  width: 300px;
+  width: 350px;
   height: 200px;
 }
 .projects .probox h3,
 .projects .probox p {
   padding: 10px 0;
+}
+
+.contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 50px;
+}
+
+input,
+textarea {
+  border: 0;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  font-family: "Recursive", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  opacity: 1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  opacity: 1;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  opacity: 1;
+}
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+}
+input:hover, input:focus,
+textarea:hover,
+textarea:focus {
+  border-color: #A83B72;
+}
+
+textarea {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.button {
+  border: 2px solid #A83B72;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  color: #A83B72;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.button:hover, .button:focus {
+  background-color: #A83B72;
+  color: #fff;
 }

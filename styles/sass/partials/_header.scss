@@ -45,7 +45,6 @@ header a {
 a:hover,
 a:focus {
   cursor: pointer;
-  // color: $accentColor;
   transform: scale(1.25);
   text-decoration: underline;
   text-decoration-color: #000;
@@ -53,7 +52,7 @@ a:focus {
 }
 
 .title {
-  padding-top: 120px;
+  padding-top: 150px;
 }
 .title h1,
 .title h2 {
