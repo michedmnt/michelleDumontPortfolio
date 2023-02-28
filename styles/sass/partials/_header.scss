@@ -38,21 +38,22 @@ img {
 header a {
   display: inline-block;
   color: $solidWhite;
-  text-decoration: none;
+  text-decoration-color: transparent;
   transition: 0.3s;
+  animation: underline;
 }
 
 a:hover,
 a:focus {
   cursor: pointer;
-  transform: scale(1.25);
+  transform: scale(1.2);
   text-decoration: underline;
   text-decoration-color: #000;
   text-decoration-thickness: 1.5px;
 }
 
 .title {
-  padding-top: 150px;
+  margin-top: 250px;
 }
 .title h1,
 .title h2 {

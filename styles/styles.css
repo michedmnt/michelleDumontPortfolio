@@ -330,7 +330,10 @@ h3 {
   font-size: 2.5rem;
 }
 
-nav li a,
+nav li a {
+  font-size: 2.5rem;
+}
+
 p {
   font-size: 2rem;
 }
@@ -379,30 +382,43 @@ img {
 header a {
   display: inline-block;
   color: #fff;
-  text-decoration: none;
+  text-decoration-color: transparent;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  -webkit-animation: underline;
+          animation: underline;
 }
 
 a:hover,
 a:focus {
   cursor: pointer;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   text-decoration: underline;
-  -webkit-text-decoration-color: #000;
-          text-decoration-color: #000;
+  text-decoration-color: #000;
   text-decoration-thickness: 1.5px;
 }
 
 .title {
-  padding-top: 150px;
+  margin-top: 250px;
 }
 
 .title h1,
 .title h2 {
   text-align: center;
   padding: 0;
+}
+
+.arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.arrow .gif {
+  width: 200px;
 }
 
 .about {
@@ -449,20 +465,36 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .projects .probox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F7B4AD;
   text-align: center;
+  border-radius: 10%;
+  margin: 0 20px;
 }
 .projects .probox img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 350px;
-  height: 200px;
+  height: 250px;
+  border-radius: 10%;
+  margin: 15px auto;
 }
 .projects .probox h3,
 .projects .probox p {
-  padding: 10px 0;
+  margin: 10px;
+  width: 400px;
 }
 
 .contactForm {
