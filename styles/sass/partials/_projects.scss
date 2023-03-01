@@ -5,18 +5,10 @@
   .probox {
     display: flex;
     flex-direction: column;
-    background-color: $secondaryColor;
     text-align: center;
-    border-radius: 10%;
-    margin: 0 20px;
-  
-    img {
-      justify-content: center;
-      width: 350px;
-      height: 250px;
-      border-radius: 10%;
-      margin: 15px auto;
     }
+
+
 
     h3,
     p {
@@ -25,4 +17,3 @@
     }
   }
   
-}

@@ -23,11 +23,12 @@ p {
 h2 {
   font-size: 3rem;
   text-align: center;
-  padding: 50px 0;
   }
 
 h3 {
-  font-size: 2.5rem;
+  font-family: $logoFont;
+  letter-spacing: 3px;
+  font-size: 3rem;
 } 
 nav li a{
   font-size: 2.5rem;
@@ -36,3 +37,6 @@ p {
   font-size: 2rem;
 }
 
+.mainTitles {
+  margin: 50px 0;
+}
