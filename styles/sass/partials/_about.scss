@@ -1,0 +1,23 @@
+.arrow {
+  display: flex;
+  justify-content: center;
+  .gif {
+    width: 200px;
+  }
+} 
+
+.about {
+  display: flex;
+  align-items: center;
+
+  .bio {
+    padding-left: 50px;
+  }
+}
+
+.headshot img {
+  width: 350px;
+  border: 2px solid $accentColor;
+  border-radius: 50%;
+  align-content: center;
+}
