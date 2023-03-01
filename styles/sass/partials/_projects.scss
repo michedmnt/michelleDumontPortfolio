@@ -1,19 +1,39 @@
 .projects {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   
   .probox {
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    a {
+      border: 2px solid $accentColor;
+      text-decoration: none;
+      font-weight: bold;
+      color: $accentColor;
+      transition: 0.3s;
+      margin-bottom: 10px;
+      
+        &:hover,
+        &:focus {
+          transform: scale(1);
+          background-color: $accentColor;
+          color: $solidWhite;
+        }
+    }
     }
 
-
+    .movie {
+      margin: 0 150px;
+    }
 
     h3,
     p {
-      margin: 10px;
-      width: 400px;
+      margin: 15px 0;
+    }
+
+    p {
     }
   }
   

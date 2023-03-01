@@ -470,9 +470,9 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .projects .probox {
   display: -webkit-box;
@@ -484,12 +484,28 @@ a:focus {
           flex-direction: column;
   text-align: center;
 }
+.projects .probox a {
+  border: 2px solid #A83B72;
+  text-decoration: none;
+  font-weight: bold;
+  color: #A83B72;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.projects .probox a:hover, .projects .probox a:focus {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background-color: #A83B72;
+  color: #fff;
+}
+.projects .movie {
+  margin: 0 150px;
+}
 .projects h3,
 .projects p {
-  margin: 10px;
-  width: 400px;
+  margin: 15px 0;
 }
-
 .contactForm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -514,20 +530,20 @@ textarea {
   transition: 0.3s;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  opacity: 1;
+  opacity: 0.75;
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
-  opacity: 1;
+  opacity: 0.75;
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  opacity: 1;
+  opacity: 0.75;
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-  opacity: 1;
+  opacity: 0.75;
 }
 input::placeholder,
 textarea::placeholder {
-  opacity: 1;
+  opacity: 0.75;
 }
 input:hover, input:focus,
 textarea:hover,
